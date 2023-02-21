@@ -109,17 +109,6 @@ class _HomepageState extends State<Homepage> {
                 style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
               ),
             ),
-            // TextButton(
-            //   onPressed: (() {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //         builder: (context) => const Registerpage(),
-            //       ),
-            //     );
-            //   }),
-            //   child: const Text("setting"),
-            // )
           ],
         ),
       ),
