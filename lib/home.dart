@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:main/Registerpage.dart';
-import 'package:main/editcustomer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'edit.dart';
-import 'signup.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
