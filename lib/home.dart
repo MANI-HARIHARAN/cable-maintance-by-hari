@@ -30,7 +30,7 @@ class _HomepageState extends State<Homepage> {
     var fee = main.getStringList("fee") ?? ["AMOUNT"];
     if (name.isEmpty) {
       setState(() {
-        var count = 1;
+        count = 1;
       });
     } else {
       setState(() {
@@ -69,7 +69,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "customer Data",
+          "Customer Data",
           // style: TextStyle(color: Color.fromARGB(255, 253, 253, 253)),
         ),
         backgroundColor: const Color.fromARGB(139, 247, 88, 88),

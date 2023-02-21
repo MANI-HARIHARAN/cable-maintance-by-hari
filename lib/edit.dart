@@ -92,6 +92,8 @@ class _EditpageState extends State<Editpage> {
                               onChanged: (value) {
                                 updatedBox = value;
                               },
+                              keyboardType:
+                                  const TextInputType.numberWithOptions(),
                             ),
                             TextField(
                               decoration:
@@ -99,6 +101,8 @@ class _EditpageState extends State<Editpage> {
                               onChanged: (value) {
                                 updatedFee = value;
                               },
+                              keyboardType:
+                                  const TextInputType.numberWithOptions(),
                             ),
                           ],
                         ),
