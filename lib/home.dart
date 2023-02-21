@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names, unused_local_variable
+
 import 'package:flutter/material.dart';
 import 'package:main/Registerpage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -70,10 +72,10 @@ class _HomepageState extends State<Homepage> {
           "customer Data",
           // style: TextStyle(color: Color.fromARGB(255, 253, 253, 253)),
         ),
-        backgroundColor: Color.fromARGB(139, 247, 88, 88),
+        backgroundColor: const Color.fromARGB(139, 247, 88, 88),
       ),
       drawer: Drawer(
-        backgroundColor: Color.fromARGB(192, 38, 150, 206),
+        backgroundColor: const Color.fromARGB(192, 38, 150, 206),
         child: Column(
           children: [
             const SizedBox(

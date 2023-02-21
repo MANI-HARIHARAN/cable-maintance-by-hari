@@ -1,3 +1,5 @@
+// ignore_for_file: unused_shown_name, file_names
+
 import 'package:flutter/material.dart'
     show
         AssetImage,

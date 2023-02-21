@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -51,7 +53,7 @@ class _EditpageState extends State<Editpage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Edit customer"),
-        backgroundColor: Color.fromARGB(139, 247, 88, 88),
+        backgroundColor: const Color.fromARGB(139, 247, 88, 88),
       ),
       body: Container(
         decoration: const BoxDecoration(
