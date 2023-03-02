@@ -146,7 +146,12 @@ class _EditpageState extends State<Editpage> {
                 );
               },
               child: ListTile(
-                leading: Text((index + 1).toString()),
+                leading: CircleAvatar(
+                  radius: 20,
+                  child: Text(
+                    (index + 1).toString(),
+                  ),
+                ),
                 title: Text(Name![index]),
                 subtitle: Text(Box![index]),
                 trailing: Text(Fee![index]),

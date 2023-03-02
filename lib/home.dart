@@ -126,7 +126,12 @@ class _HomepageState extends State<Homepage> {
             return Column(
               children: [
                 ListTile(
-                  leading: Text((index + 1).toString()),
+                  leading: CircleAvatar(
+                    radius: 20,
+                    child: Text(
+                      (index + 1).toString(),
+                    ),
+                  ),
                   title: Text(Box?[index] ?? "Box"),
                   subtitle: Text(Name?[index] ?? "NAME"),
                   trailing: Row(
