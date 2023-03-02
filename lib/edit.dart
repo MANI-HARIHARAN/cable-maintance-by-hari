@@ -53,7 +53,7 @@ class _EditpageState extends State<Editpage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Edit customer"),
-        backgroundColor: const Color.fromARGB(139, 247, 88, 88),
+        backgroundColor: Color.fromARGB(137, 34, 134, 248),
       ),
       body: Container(
         decoration: const BoxDecoration(

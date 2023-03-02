@@ -72,7 +72,7 @@ class _HomepageState extends State<Homepage> {
           "Customer Data",
           // style: TextStyle(color: Color.fromARGB(255, 253, 253, 253)),
         ),
-        backgroundColor: const Color.fromARGB(139, 247, 88, 88),
+        backgroundColor: Color.fromARGB(137, 34, 134, 248),
       ),
       drawer: Drawer(
         backgroundColor: const Color.fromARGB(192, 38, 150, 206),
